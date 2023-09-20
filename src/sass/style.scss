@@ -1,0 +1,33 @@
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+
+  .key {
+    font-size: 19px;
+    border: 1px solid black;
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    text-align: center;
+    color: red;
+    transition: all 0.07s;
+  }
+  .playing {
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 10px yellow;
+  }
+    kbd {
+      display: block;
+      font-size: 40px;
+    }
+
+    .sound {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: yellow;
+    }
+  
+}
